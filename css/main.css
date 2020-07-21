@@ -32,7 +32,7 @@ header nav .nav-right-section {
 
 nav .nav-right-section a {
     margin-right: 10px;
-    color: rgba(0,0,0,0.87);
+    color: rgba(0, 0, 0, 0.87);
 }
 
 nav .nav-right-section .menu-icon {
@@ -79,6 +79,8 @@ main .main-input-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 44px;
+
 }
 
 main .main-input-container:hover {
@@ -86,22 +88,26 @@ main .main-input-container:hover {
     border-color: #DFE1E500;
 }
 
-main .main-input .search-icon{
+main .main-input .search-icon {
     background-image: url('https://images.vexels.com/media/users/3/132068/isolated/preview/f9bb81e576c1a361c61a8c08945b2c48-icono-de-b-squeda-by-vexels.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     width: 18px;
     height: 18px;
+    position: absolute;
+    margin-left: -250px;
 }
 
-main .main-input .micro-icon{
+main .main-input .micro-icon {
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     width: 18px;
     height: 18px;
+    position: absolute;
+    margin-left: 250px;
 }
 
 main .main-buttons {
@@ -125,4 +131,33 @@ main .main-buttons button {
     border: none;
     outline: none;
     cursor: pointer;
+}
+
+input[type="text"] {
+    border: none;
+    padding: 10px;
+    color: black;
+}
+
+.main-prueba {
+    display: inline-block;
+    margin-top: 40px;
+    line-height: 15px;
+}
+
+footer .footer {
+    position: fixed;
+    width: 100%;
+    justify-content: flex-start;
+    background: #f2f2f2;
+    line-height: 40px;
+    min-width: 980px;
+    margin-top: 210px;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer .footer .footer-col2 {
+    float: right;
+    margin-right: 30px;
+    white-space: nowrap;
 }
