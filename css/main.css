@@ -71,9 +71,10 @@ main .main-input {
     margin: 0 auto;
     margin-bottom: 35px;
 }
+
 main .main-input-container {
     width: 525px;
-    border-radius: 100%;
+    border-radius: 100px;
     border: 1px solid gainsboro;
     display: flex;
     justify-content: center;
@@ -81,11 +82,11 @@ main .main-input-container {
 }
 
 main .main-input-container:hover {
-    box-shadow: 0 1px 6px 0 #20212447;
+    box-shadow: 0 1px 6px #20212447;
     border-color: #DFE1E500;
 }
 
-main .main-input .search-icon {
+main .main-input .search-icon{
     background-image: url('https://images.vexels.com/media/users/3/132068/isolated/preview/f9bb81e576c1a361c61a8c08945b2c48-icono-de-b-squeda-by-vexels.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -93,7 +94,8 @@ main .main-input .search-icon {
     width: 18px;
     height: 18px;
 }
-main .main-input .micro-icon {
+
+main .main-input .micro-icon{
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -105,7 +107,6 @@ main .main-input .micro-icon {
 main .main-buttons {
     width: 530px;
     margin: 0 auto;
-
 }
 
 main .main-buttons div {
